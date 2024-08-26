@@ -20,3 +20,6 @@ resetbtn.addEventListener("click", () => {
   counterValue.innerHTML = counter;
 });
 
+
+
+
