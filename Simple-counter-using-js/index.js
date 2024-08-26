@@ -11,7 +11,7 @@ addition.addEventListener("click", () => {
 });
 
 subtract.addEventListener("click", () => {
-  counter--;
+  if (counter > 0) counter--;
   counterValue.innerHTML = counter;
 });
 
